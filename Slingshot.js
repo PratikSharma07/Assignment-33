@@ -13,9 +13,7 @@ class SlingShot{
         this.sling = Constraint.create(options);
         World.add(world, this.sling);
     }
-    attach(body){
-        this.sling.bodyA = body;
-    }
+  
     
     fly(){
         this.sling.bodyA = null;
